@@ -1,0 +1,27 @@
+{
+    "name": "dtufood/gies",
+    "description": "A PHP library for estimating food composition parameters based on food recipes",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kim Henriksen",
+            "email": "kihen@food.dtu.dk"
+        },
+        {
+            "name": "Tue Christensen",
+            "email": "tuchr@food.dtu.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DTU\\Food\\GIES\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
