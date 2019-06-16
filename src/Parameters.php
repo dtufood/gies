@@ -91,9 +91,9 @@ class Parameters implements Contracts\Parameters
     }
 
     /**
-     * Offset getter.
+     * Scales the parameter values.
      *
-     * @param mixed $index
+     * @param mixed $value
      *
      * @return mixed
      */
