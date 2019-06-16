@@ -2,9 +2,7 @@
 
 namespace DTU\Food\GIES;
 
-use ArrayObject;
-
-class Parameters extends ArrayObject implements Contracts\Parameters
+class Parameters implements Contracts\Parameters
 {
     /**
      * The scale property.
