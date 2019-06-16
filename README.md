@@ -14,10 +14,10 @@ A PHP library for estimating food composition parameters based on food recipes
 
 ## Contact 
 
-Kim Henriksen <kihen@food.dtu.dk> 
-Tue Christensen <tuchr@food.dtu.dk> 
+Kim Henriksen <kihen@food.dtu.dk>  
+Tue Christensen <tuchr@food.dtu.dk>
 
 Website: https://www.food.dtu.dk/
 
-**National Food Institute, Technical University of Denmark**
-**Division for Risk Assessment and Nutrition**
+**National Food Institute, Technical University of Denmark**  
+**Division for Risk Assessment and Nutrition**  
