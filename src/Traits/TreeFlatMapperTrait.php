@@ -10,7 +10,7 @@ trait TreeFlatMapperTrait
      * @param array  $trees
      * @param mixed  $attribute
      * @param string $node
-     * @param array  $index
+     * @param mixed  $index
      *
      * @return array
      */
