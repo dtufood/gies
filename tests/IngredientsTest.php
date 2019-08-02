@@ -16,7 +16,7 @@ class IngredientsTest extends TestCase
     {
         $ingredients = new Ingredients(
             $tree,
-            ['id', 'preperation_id'],
+            ['id', 'preparation_id'],
             'value',
             'ingredients'
         );
@@ -38,7 +38,7 @@ class IngredientsTest extends TestCase
     {
         $ingredients = new Ingredients(
             $tree,
-            ['id', 'preperation_id'],
+            ['id', 'preparation_id'],
             'value',
             'ingredients'
         );
@@ -63,17 +63,17 @@ class IngredientsTest extends TestCase
                 [
                     [
                         'id' => 54,
-                        'preperation_id' => 1,
+                        'preparation_id' => 1,
                         'value' => 240.0,
                     ],
                     [
                         'id' => 71,
-                        'preperation_id' => 1,
+                        'preparation_id' => 1,
                         'value' => 3.0,
                     ],
                     [
                         'id' => 46,
-                        'preperation_id' => 1,
+                        'preparation_id' => 1,
                         'value' => 10.0,
                     ],
                 ],
@@ -90,36 +90,36 @@ class IngredientsTest extends TestCase
                 [
                     [
                         'id' => 80,
-                        'preperation_id' => 1,
+                        'preparation_id' => 1,
                         'value' => 0.01,
                         'ingredients' => [
                             [
                                 'id' => 81,
-                                'preperation_id' => 4,
+                                'preparation_id' => 4,
                                 'value' => 0.015,
                             ],
                             [
                                 'id' => 84,
-                                'preperation_id' => 4,
+                                'preparation_id' => 4,
                                 'value' => 0.005,
                             ],
                         ],
                     ],
                     [
                         'id' => 82,
-                        'preperation_id' => 3,
+                        'preparation_id' => 3,
                         'value' => 0.5,
                         'ingredients' => [
                             [
                                 'id' => 83,
-                                'preperation_id' => 2,
+                                'preparation_id' => 2,
                                 'value' => 0.1,
                             ],
                         ],
                     ],
                     [
                         'id' => 84,
-                        'preperation_id' => 4,
+                        'preparation_id' => 4,
                         'value' => 0.001,
                     ],
                 ],
